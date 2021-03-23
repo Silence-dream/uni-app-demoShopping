@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "@escook/request-miniprogram": "^0.2.1"
-  }
+  },
+  "name": "uni-app-demoShopping",
+  "description": "uniapp版本的黑马优购",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silence-dream/uni-app-demoShopping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silence-dream/uni-app-demoShopping/issues"
+  },
+  "homepage": "https://github.com/Silence-dream/uni-app-demoShopping#readme"
 }
