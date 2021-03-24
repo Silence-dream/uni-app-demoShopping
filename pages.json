@@ -75,5 +75,29 @@
 			"path": "", //启动页面，必选
 			"query": "" //启动参数，在页面的onLoad函数里面得到
 		}]
-	}
+	},
+	"subPackages":[
+		{
+			"root":"subpkg",
+			"pages":[{
+                    "path" : "good_detail/good_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "good_list/good_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	]
 }
