@@ -1,3 +1,5 @@
+# 忽略打包
+unpackage/
 # Compiled class file
 *.class
 
