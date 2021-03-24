@@ -1,6 +1,7 @@
 # 忽略打包
 unpackage/
 .idea
+node_modules/
 # Compiled class file
 *.class
 
