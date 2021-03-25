@@ -1,5 +1,6 @@
 <template>
-	<div id="home">
+	<view id="home">
+		<my-search></my-search>
 		<!-- 轮播图 -->
 		<swiper class="banner" indicator-dots autoplay>
 			<swiper-item v-for="(item,index) in swiperList" :key="index">
@@ -41,7 +42,7 @@
 		      </view>
 		    </view>
 		    <!-- 楼层结束 -->
-	</div>
+	</view>
 </template>
 
 <script>
