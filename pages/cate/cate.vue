@@ -38,6 +38,7 @@
                   class="content"
                   v-for="item3 in item2.children"
                   :key="item3.cat_id"
+                  :url="'/subpkg/good_list/good_list?cid=' + item3.cat_id"
                 >
                   <image mode="widthFix" :src="item3.cat_icon"></image>
                   <view class="content-name">{{ item3.cat_name }}</view>

@@ -83,7 +83,7 @@
                     "path" : "good_detail/good_detail",
                     "style" :                                                                                    
                 {
-                    "navigationBarTitleText": "",
+                    "navigationBarTitleText": "商品详情",
                     "enablePullDownRefresh": false
                 }
                 
@@ -92,8 +92,9 @@
                     "path" : "good_list/good_list",
                     "style" :                                                                                    
                 {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
+                    "navigationBarTitleText": "商品列表",
+                    "enablePullDownRefresh": false,
+					"onReachBottomDistance": 50
                 }
                 
                 }
